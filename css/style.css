@@ -55,6 +55,9 @@ body {
     border: 0;
     
 }
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
 
 .navbar-default .navbar-callapse {
     border-color: transparent;
@@ -235,10 +238,111 @@ blockquote.quote {
     
 }
     
-/* drop down */    
-  
 
-    
-    
-    
-    
+/* special Margins/Padding/Text */
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    color: #fafafa;
+}
+/* special Margins/Padding/Text */
+.col-sm-12 {
+    width: 100%;
+    text-align: center;
+}
+/* section*/
+
+.bg-color-history{
+    background-color: #ffffff;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 100px;
+    margin: 0;
+}
+.social-links{
+    padding-bottom: 15px;
+}
+.social-links li a i {
+    width: 57px;
+    height: 35px;
+    border-radius: 20%;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-background: all 0.35s ease-in-out;
+}
+.social-links li a i:hover {
+    background: #f05f40;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
