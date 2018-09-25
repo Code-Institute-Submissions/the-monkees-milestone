@@ -1,6 +1,6 @@
-body {
-    font-family: 'Roboto', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+
 
 /* Container */
 
@@ -115,8 +115,10 @@ body {
     background-color: #d14700;
     border-color: white;
 }
-
-
+/* fonts */
+img {
+    border-radius: 50%;
+}
 /* jumbotron */
 
 .jumbotron {
@@ -138,6 +140,9 @@ body {
 .jumbotron .lead {
     color: #ffffff;
     margin: 25px 0;
+    font-family: 'Acme',sans-serif;
+    font-weight: 700;
+    font-size: 34px;
     
 }
 
@@ -208,8 +213,7 @@ body {
 }
 
 /* quotes */
-
-blockquote.quote {
+.blockquote.quote {
     border-left: 0;
 }
 
@@ -247,7 +251,7 @@ blockquote.quote {
 }
 
 .general-sub {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Acme',sans-serif;
     font-weight: 700;
     color: #fafafa;
 }
@@ -293,11 +297,17 @@ footer {
 }
 
 
+/* image fonts/colours */
 
 
-
-
-
+.img-monkees{
+    
+    color: #5e6062;
+}
+.monkees-history{
+    color: #5e6062;
+    
+}
 
 
 
