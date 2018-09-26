@@ -41,7 +41,7 @@
     padding-bottom: 75px;
 }
 
-    
+
 /* Navbar */
 
 .navbar {
@@ -241,6 +241,21 @@ img {
     color: #f05f40;
     
 }
+/* image fonts/colours */
+
+
+.img-monkees{
+    color: #5e6062;
+    font-family: 'Acme',sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.monkees-history{
+    color: #5e6062;
+    font-family: 'Acme',sans-serif;
+}
+
     
 
 /* special Margins/Padding/Text */
@@ -264,6 +279,20 @@ img {
 
 .bg-color-history{
     background-color: #ffffff;
+}
+/* contact */
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+button[type="submit"]{
+    margin-top: 21px;
+    margin-bottom: 24px;
+    color: #ffffff;
+    background-color: #f05f40;
+    
 }
 
 
@@ -297,16 +326,18 @@ footer {
 }
 
 
-/* image fonts/colours */
 
-
-.img-monkees{
+/* media queries*/
+@media(min-width: 992px) {
     
-    color: #5e6062;
-}
-.monkees-history{
-    color: #5e6062;
+    .center-form{
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
     
+   }
+   
 }
 
 
